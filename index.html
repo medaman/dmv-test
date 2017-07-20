@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DMV - Driver's License Test</title>
+
+  <!-- Bootstrap File -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Monofett|Homemade+Apple" rel="stylesheet">
+
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery.js"></script>
+
+  <!-- Javascript files -->
+  <script src="assets/javascript/javascript.js"></script>  
+  <script src="assets/javascript/questions-directory.js"></script>  
+
+  <!-- CSS files -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+  <button id="main-restart" class="btn btn-default restart">Restart</button>
+  <div id="start-screen">
+    <h1>Welcome to the DMV Driver's License Test</h1>
+    <h3>The test consists of 30 multiple choice questions. You will have a maximum of 30 seconds for each question. You are required to answer 24 questions correctly. If you miss 6 questions during the duration of the test, you will automatically fail. As soon as you answer 24 questions correctly, you will pass the test. Please contact your nearest DMV associate for further instructions.</h3>
+    <h3>GOOD LUCK.</h3>
+    <button id="start-button" class="btn btn-default">Begin Test</button>
+  </div>
+  <div id="main-screen" class="container-fluid">
+    <h1>DMV Driver's License Test</h1>
+    <div id="time-counter">
+      <h3>Time Remaining: </h3>
+      <h3 id="time-remaining"></h3>
+      <h3> Seconds</h3>
+    </div>
+    <div><h3 id="question"></h3></div>
+    <div id="answer-area"></div>
+    <div id="result"></div>
+    </div>
+  </div>
+  <div id="answer-display">
+    <div>Correct Answers: <span id="correct-answers"></span>
+    <div>Incorrect Answers: <span id="incorrect-answers"></span>
+    <div>Questions Remaining: <span id="questions-remaining"></span>
+  </div>
+</body>
+</html>
