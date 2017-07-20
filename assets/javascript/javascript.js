@@ -44,11 +44,12 @@ $(document).ready(function() {
         $("#button"+dmvTest.currentQuestions[dmvTest.questionNumber].answer).css("background-color","green");
           dmvTest.incorrectAnswers++;
           dmvTest.timer.stop();
+          answered = true;
       }, 30000);
       dmvTest.endRound = setTimeout(function() {
         dmvTest.questionNumber++;
         startTest();
-      }, 34000);
+      }, 32500);
       
       $(".answer-button").on("click", function() {
         if(!answered) {
@@ -61,7 +62,7 @@ $(document).ready(function() {
             dmvTest.correctAnswer = setTimeout(function() {
               dmvTest.questionNumber++;
               startTest();
-            }, 3000);
+            }, 2500);
             $(this).css("background-color","green");
           } else {
             $("#result").html("That is wrong");
@@ -72,7 +73,7 @@ $(document).ready(function() {
             dmvTest.incorrectAnswer = setTimeout(function() {
               dmvTest.questionNumber++;
               startTest();
-            }, 3000);
+            }, 2500);
             $(this).css("background-color","red");
             $("#button"+dmvTest.currentQuestions[dmvTest.questionNumber].answer).css("background-color","green");
           }
