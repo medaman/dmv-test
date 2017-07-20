@@ -55,8 +55,19 @@ body {
   margin:auto;
 }
 
+#question img{
+  width:20%;
+  display:block;
+  margin:auto;
+}
+
 #result {
-  font-size: 5vh;
+  font-size: 4vh;
+}
+
+#result button {
+  background-color: gold;
+  border-radius: 5px;
 }
 
 .answer-button {

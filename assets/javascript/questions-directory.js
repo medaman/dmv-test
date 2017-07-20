@@ -1,4 +1,5 @@
 var questionList = [
+
 addQuestion('You may drive off of the paved roadway to pass another vehicle:', 'If the shoulder is wide enough to accommodate your vehicle.', 'If the vehicle ahead of you is turning left.', 'Under no circumstances.', 3),
 addQuestion('You are approaching a railroad crossing with no warning devices and are unable to see 400 feet down the tracks in one direction. The speed limit is:', '15 mph.', '20 mph.', '25 mph.', 1),
 addQuestion('When parking your vehicle parallel to the curb on a level street:', 'Your front wheels must be turned toward the street.', 'Your wheels must be within 18 inches of the curb.', 'One of your rear wheels must touch the curb.', 2),
@@ -47,7 +48,45 @@ addQuestion('You see a signal person at a road construction site ahead. You shou
 addQuestion('When can you drive in a bike lane?', 'During rush hour traffic if there are no bicyclists in the bike lane.', 'When you are within 200 feet of a cross street where you plan to turn right.', 'When you want to pass a driver ahead of you who is turning right.', 2),
 addQuestion('You see a flashing yellow traffic signal at an upcoming intersection. The flashing yellow light means:', 'Stop before entering the intersection as long as you can do so safely.', 'Stop. Yield to all cross traffic before crossing the intersection.', 'Slow down and cross the intersection carefully.', 3),
 addQuestion('There is no crosswalk and you see a pedestrian crossing your lane ahead. You should:', 'Make eye contact and then pass him/her.', 'Slow down as you pass him/her.', 'Stop and let him/her finish crossing the street.', 3),
-addQuestion('A solid yellow line next to a broken yellow line means that vehicles:', 'In both directions may pass.', 'Next to the broken line may pass.', 'Next to the solid line may pass.', 2)];
+addQuestion('A solid yellow line next to a broken yellow line means that vehicles:', 'In both directions may pass.', 'Next to the broken line may pass.', 'Next to the solid line may pass.', 2),
+
+addQuestion('You may drive in a bike lane', 'No more than 200 feet before making a right turn', 'if you drive slower than 15mph', 'whenever bicyclists are not present', 1),
+addQuestion('You are driving on a city street and see an emergency vehicle with flashing lights behind you. What should you do?', 'Drive to the right edge of the road and stop', 'Drive to the right edge of the road and slow down', 'Stay in your lane, slow down, and let it pass', 1),
+addQuestion('For which of the following traffic lights must you always stop your vehicle:', 'Solid red lights, red arrows and flashing yellow lights', 'Solid red lights, flashing red lights and blacked out traffic signals', 'Solid red lights, flashing red lights and yellow lights', 2),
+addQuestion('It is illegal for a person 21 years of age or older to drive with a blood alcohol concentration (BAC) that is___________ or higher', '0.10% -- One tenth of one percent', '0.05% -- five hundredths of one percent', '0.08% -- Eight hundredths of one percent', 3),
+addQuestion('You must notify the DMV within 5 days if you:', 'Paint your vehicle of a different color', 'Sell or Transfer your vehicle', 'Are cited for a traffic violation', 2),
+addQuestion('Tailgating other drivers (driving too close to their rear bumper)', 'reduces collisions by preventing from being "cut off"', 'cannot result in traffic violation', 'Can frustrate other drivers and make them angry', 3),
+addQuestion('Drivers are required to obey instructions from', 'Flaggers (signal persons) at construction sites', 'security guards patrolling parking lots', 'Other drivers whose vehicles are broken down on the roadway', 1),
+addQuestion('Driving under the influence of any medication which impairs your driving is permitted', 'if it is prescribed by a physician', 'under no circumstances', 'if you do not feel drowsy', 2),
+addQuestion('A solid yellow line next to a broken yellow line means that vehicles', 'In both directions may pass', 'Next to the broken line may pass', 'Next to the solid line may pass', 2),
+addQuestion('A flashing yellow traffic signal at an intersection means', 'Stop. Yield to all cross traffic before crossing in the intersection', 'Slow down and be alert at the upcoming intersection', 'You should treat the signal like a stop sign', 2),
+addQuestion('You are involved in a minor collision at an intersection. There are no injuries and very little vehicle damage, you should', 'Move your vehicle out of the traffic lane, if possible', 'Leave your vehicle in the traffic lane until law enforcement arrives', 'Not move your vehicle for any reason', 1),
+addQuestion('If your cell phone rings while you are driving and you do not have a hands-free device you should', 'Let the call go to voicemail', 'Answer the call because it may be an emergency', 'Check the incoming number before answering the call', 1),
+addQuestion('What is the benefit of a space cushion around your vehicle', 'Other drivers can "cut" in front of you, improving traffic flow', 'If another driver makes a mistake, you have time to react', 'It inflates to protect you from injury in case of a collision', 2),
+addQuestion('When driving on a multilane street with two way traffic:', 'It is safest to drive in the lane next to the center line', 'Drive along side the other vehicles so the drivers can see you', 'You should drive ahead or behind the other vehicles', 3),
+addQuestion('If you are riding in a vehicle equipped with a lap belt and also a separate shoulder belt, you are', 'Only required to use the shoulder belt', 'Require to use both the lap and shoulder belt', 'Only require to use the lap belt', 2),
+addQuestion('You want to park uphill on a two-way road and there is no curb. Which way do you turn your front wheels?', 'Right towards the side of the road', 'Left towards the center of the road', 'So they face straight ahead', 1),
+addQuestion('Smoking inside a vehicle when a person younger than 18 years of age is present', 'Not restricted by law', 'Legal, if it is your child', 'Illegal at all times', 3),
+addQuestion('While all the following are dangerous to do while driving, which is also illegal', 'Reading a road map', 'Adjusting your outside mirrors', 'Listening to music through a set of dual headphones', 3),
+addQuestion('To Turn left from a one-way street with multiple lanes onto a two way street, start the turn in', 'The lane closest to the middle of the street', 'Any lane available', 'The far left lane', 3),
+addQuestion('Backing your vehicle is', 'Dangerous if you have a helper', 'Always dangerous to do', 'Only dangerous in large vehicles', 2),
+addQuestion('You reach an intersection with stop signs on all four corners at the same time as the driver on your left. Who has the right of way:', 'You have the right-of-way', 'The driver on your left has the right-of-way', 'Whoever if signaling to make a turn has the right-of-way', 1),
+addQuestion('You are driving on the freeway behind a large truck, You should drive', 'Farther behind the truck than for a passenger vehicle', 'Closer behind the truck than for a passenger vehicle', 'To the right side of the truck and wait to pass', 1),
+addQuestion('If there is no crosswalk and you see a pedestrian crossing your lane, you should', 'cautiously drive around the pedestrian', 'Make sure the pedestrian can see you before proceeding', 'Stop and let the pedestrian finish crossing', 3),
+addQuestion('You must yield to a pedestrian using a white cane or guide dog', 'Only is a crossing guard is present', 'Only when a guide dog is leading the person across the street', 'At all times', 3),
+addQuestion('The yellow signs means: <img src="https://d35gqh05wwjv5k.cloudfront.net/media/catalog/product/cache/4/image/85e4522595efc69f496374d01ef2bf13/1420729013/r/e/reflective-warning-signs-swerving-car-symbol-vc1687-lg.jpg">', 'There is a sharp curve in the road ahead', 'The road ahead has many curves', 'The road ahead may be slippery', 3),
+addQuestion('Blocking an intersection during "rush hour" traffic is not permitted', 'Unless you have the right of way or a green light', 'Unless you entered the intersection on a green light', 'Under any circumstances, even if your light is green', 3),
+addQuestion('When parking next to a curb, you should use your turn signals', 'When pulling next to or away from the curb', 'When pulling next to, but not away from the curb', 'Only when pulling away from the curb', 1),
+addQuestion('If a traffic signal light is not working, you must:', 'Stop before entering the intersection and let all other traffic go first.', 'Slow down or stop, only if necessary.', 'Stop, then proceed when safe', 3),
+addQuestion('You are on the freeway and traffic is merging into your lane. You should:', 'Make room for the merging traffic, if possible', 'Always slow down and maintain your position', 'Assert your right of way by driving faster', 1),
+addQuestion('Always use your seat belt:', 'When the vehicle is equipped with seat belts.', 'Unless the vehicle was built before 1978.', 'Unless you are in a limousine.', 1),
+addQuestion('A flashing red traffic light at an intersection means:', 'Slow down before entering', 'Stop and wait for the green light', 'Stop before entering', 3),
+addQuestion('A freeway on-ramp is marked with this white sign. Which of the following vehicles may use this lane? <img src = "http://orig08.deviantart.net/fddd/f/2015/360/9/4/carpool_sign_2_by_mcspyder1-d9llav1.png">', 'A carpool van containing only the driver', 'A convertible with an adult and two children', 'A sport utility vehicle containing an adult, child and family pet', 2),
+addQuestion('To see vehicles in your blind spot, you should check:', 'Over your shoulders', 'The outside rearview mirror', 'The inside rearview mirror', 1),
+addQuestion('To make a right turn at the corner, you:', 'Must merge into the bicycle lane before turning.', 'May not enter the bicycle lane.', 'Should only merge into the bicycle lane if you stop before turning', 1),
+addQuestion('When you drive through a construction zone, you should:', 'Pass the construction zone carefully and not “rubberneck”.', 'Slow down to watch the workers', 'Decrease your following distance', 1)
+
+];
 
 function addQuestion(question, option1, option2, option3, answer) {
   var details = {
