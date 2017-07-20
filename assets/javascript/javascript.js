@@ -40,10 +40,11 @@ $(document).ready(function() {
 
       dmvTest.timer.start();
       dmvTest.startRound = setTimeout(function() {
-        $("#result").html("The correct answer was: " + dmvTest.currentQuestions[dmvTest.questionNumber]["option" + dmvTest.currentQuestions[dmvTest.questionNumber].answer]);
+        $("#result").html("Times Up!");
         $("#button"+dmvTest.currentQuestions[dmvTest.questionNumber].answer).css("background-color","green");
           dmvTest.incorrectAnswers++;
           dmvTest.timer.stop();
+          $("#time-remaining").html(0);
           answered = true;
       }, 30000);
       dmvTest.endRound = setTimeout(function() {
@@ -54,7 +55,7 @@ $(document).ready(function() {
       $(".answer-button").on("click", function() {
         if(!answered) {
           if(parseInt($(this).attr("value")) === dmvTest.currentQuestions[dmvTest.questionNumber].answer) {
-            $("#result").html("That is right");
+            $("#result").html("Correct!");
             clearTimeout(dmvTest.startRound);
             clearTimeout(dmvTest.endRound);
             dmvTest.timer.stop();
@@ -65,7 +66,7 @@ $(document).ready(function() {
             }, 2500);
             $(this).css("background-color","green");
           } else {
-            $("#result").html("That is wrong");
+            $("#result").html("Incorrect.");
             dmvTest.timer.stop();
             dmvTest.incorrectAnswers++;
             clearTimeout(dmvTest.startRound);
